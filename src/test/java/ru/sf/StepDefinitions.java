@@ -19,7 +19,7 @@ public class StepDefinitions {
     public static final СhoseGiftPage сhoseGiftPage;
 
     static {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gienka\\IdeaProjects\\cc-scenario\\src\\test\\resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gienka\\IdeaProjects\\module-35\\src\\test\\resources\\chromedriver.exe");
         webDriver = new ChromeDriver();
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         webDriver.manage().window().maximize();
